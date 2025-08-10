@@ -47,22 +47,6 @@ const Router = createBrowserRouter([
         ),
       },
       {
-        path: "AddArtifacts",
-        element: (
-          <ComponentRoute>
-            <Addts />
-          </ComponentRoute>
-        ),
-      },
-      {
-        path: "AddArtifacts",
-        element: (
-          <ComponentRoute>
-            <tifacts />
-          </ComponentRoute>
-        ),
-      },
-      {
         path: "details/:id",
         element: (
           <ComponentRoute>
