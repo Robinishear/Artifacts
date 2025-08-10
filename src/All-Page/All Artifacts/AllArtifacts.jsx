@@ -127,6 +127,18 @@ const AllArtifacts = () => {
             </div>
 
             <div className="pt-4 mt-auto flex justify-between items-center text-gray-400">
+              {/* <button
+                onClick={() => handleLike(item.id)}
+                className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm transition font-semibold select-none ${
+                  likedItems[item.id]
+                    ? 'bg-black text-amber-300 shadow-lg shadow-pink-400/40 animate-pulse'
+                    : 'bg-black text-gray-300 hover:bg-blue-300 hover:text-white active:bg-amber-300'
+                }`}
+              >
+                <GiSelfLove className={`w-5 h-5 ${likedItems[item.id] ? 'text-white' : 'text-pink-400'}`} />
+                <span>{item.likeCount || 0}</span>
+                <span className="hidden sm:inline">Likes</span>
+              </button> */}
               <button
                 onClick={() => handleLike(item.id)}
                 className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm transition font-semibold select-none ${
