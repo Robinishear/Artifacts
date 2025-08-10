@@ -949,3 +949,14 @@ export default function MoreFeaturedProducts() {
     </div>
   );
 }
+
+    //      {selectedProduct.name}
+    //         </h3>
+    //         <p className="text-lime-300 mb-4">{selectedProduct.description}</p>
+    //         <span className="text-lime-300 font-bold text-lg">
+    //           {selectedProduct.price}
+    //         </span>
+    //       </div>
+    //     </div>
+    //   )}
+    // </div>
