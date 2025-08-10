@@ -94,6 +94,13 @@ export default function AdditionalProductsWithImage() {
       {selectedProduct && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="border-2 rounded-lg shadow-lg max-w-md w-full p-6 relative">
+            {/* <button
+              className="absolute top-2 right-2 text-gray-600 hover:text-lime-300 text-2xl"
+              onClick={closeModal}
+              aria-label="Close modal"
+            >
+              &times;
+            </button> */}
             <button
               className="absolute top-2 right-2 text-gray-600 hover:text-lime-300 text-2xl"
               onClick={closeModal}
